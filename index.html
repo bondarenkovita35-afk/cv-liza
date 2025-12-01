@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="sv" data-lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV – Yelyzaveta De Lorenzi Turner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page" id="cv-root">
+        <!-- Шапка -->
+        <header class="topbar">
+            <div class="topbar-left">
+                <div class="avatar-pill">
+                    <span>YT</span>
+                </div>
+                <div>
+                    <h1 class="name" data-i18n="name">
+                        Yelyzaveta De Lorenzi Turner
+                    </h1>
+                    <p class="role" data-i18n="role">
+                        Legitimerad NO-lärare & modersmålslärare i ryska och ukrainska
+                    </p>
+                    <p class="location">
+                        📍 <span data-i18n="location">Upplands-Bro, Sverige</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="topbar-right">
+                <nav class="nav-links">
+                    <a href="#about" data-i18n="nav_about">Om mig</a>
+                    <a href="#skills" data-i18n="nav_skills">Kompetens</a>
+                    <a href="#experience" data-i18n="nav_experience">Erfarenhet</a>
+                    <a href="#education" data-i18n="nav_education">Utbildning</a>
+                    <a href="#extra" data-i18n="nav_extra">Övrigt</a>
+                </nav>
+
+                <div class="actions-row">
+                    <div class="lang-switch">
+                        <button class="lang-switch__btn lang-switch__btn--active" data-lang-btn="sv">SV</button>
+                        <button class="lang-switch__btn" data-lang-btn="en">EN</button>
+                    </div>
+                    <button id="printPdf" class="btn btn-primary" data-i18n="btn_pdf">
+                        Ladda ner som PDF
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Основной блок -->
+        <main class="layout">
+            <!-- Левая колонка -->
+            <section class="column-left">
+                <!-- Фото -->
+                <figure class="photo-card" id="about">
+                    <img src="images/profile.jpg" alt="Yelyzaveta De Lorenzi Turner" />
+                </figure>
+
+                <!-- Контакты -->
+                <section class="card contact-card">
+                    <h2 class="card-title" data-i18n="contact_title">Kontakt</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="icon">📞</span>
+                            <span>+46 73 871 75 25</span>
+                        </li>
+                        <li>
+                            <span class="icon">✉️</span>
+                            <a href="mailto:lizalitvinova51@gmail.com">lizalitvinova51@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="icon">📍</span>
+                            <span data-i18n="location">Upplands-Bro, Sverige</span>
+                        </li>
+                        <li>
+                            <span class="icon">🚗</span>
+                            <span data-i18n="drivers">Körkort B</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Краткий профиль -->
+                <section class="card" id="skills">
+                    <h2 class="card-title" data-i18n="short_profile_title">Kort profil</h2>
+                    <p class="card-text" data-i18n="short_profile">
+                        Legitimerad NO-lärare med bakgrund i biologi, ekologi och psykologi.
+                        Erfaren av undervisning i årskurs 5–9 samt arbete som modersmålslärare
+                        i ryska och ukrainska. Kreativ, strukturerad och lösningsorienterad.
+                    </p>
+                </section>
+
+                <!-- Datorkunskaper -->
+                <section class="card">
+                    <h2 class="card-title" data-i18n="it_title">Datorkunskaper</h2>
+                    <div class="chip-row">
+                        <span class="chip">Microsoft Office</span>
+                        <span class="chip">OneNote</span>
+                        <span class="chip">Photoshop</span>
+                        <span class="chip">Adobe Illustrator</span>
+                        <span class="chip">Google Classroom</span>
+                        <span class="chip" data-i18n="chip_ai">AI-verktyg</span>
+                    </div>
+                </section>
+
+                <!-- Språk -->
+                <section class="card">
+                    <h2 class="card-title" data-i18n="lang_title">Språkkunskaper</h2>
+                    <ul class="bullet-list">
+                        <li data-i18n="lang_sv">
+                            Svenska – avancerad (SIFA, SVA1–SVA3)
+                        </li>
+                        <li data-i18n="lang_en">
+                            Engelska – flytande
+                        </li>
+                        <li data-i18n="lang_uk">
+                            Ukrainska – modersmål
+                        </li>
+                        <li data-i18n="lang_ru">
+                            Ryska – modersmål
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- Правая колонка -->
+            <section class="column-right">
+                <!-- Саммари -->
+                <section class="card" id="summary">
+                    <h2 class="card-title" data-i18n="summary_title">
+                        Sammanfattning & mål
+                    </h2>
+                    <p class="card-text" data-i18n="summary_p1">
+                        Som NO-lärare vill jag ge eleverna nya och intressanta kunskaper inom
+                        biologi och naturvetenskap och samtidigt stärka deras nyfikenhet och
+                        självförtroende. Med min bakgrund inom ekologi och hållbar utveckling
+                        fokuserar jag på miljöfrågor och hur vi kan förstå de ekologiska
+                        utmaningar vi står inför.
+                    </p>
+                    <p class="card-text" data-i18n="summary_p2">
+                        Jag strävar efter att skapa en trygg och inkluderande lärmiljö där
+                        elever med olika kulturella och språkliga bakgrunder känner sig
+                        delaktiga. Jag vill bidra till skolans utveckling genom undervisning,
+                        kollegialt lärande och deltagande i projekt som förbättrar NO-undervisningen.
+                    </p>
+                </section>
+
+                <!-- Опыт -->
+                <section class="card" id="experience">
+                    <h2 class="card-title" data-i18n="exp_title">Arbetslivserfarenhet (urval)</h2>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="exp1_role">
+                                    Modersmålslärare i ryska och ukrainska
+                                </h3>
+                                <p class="timeline-place" data-i18n="exp1_place">
+                                    Enköpings kommun
+                                </p>
+                            </div>
+                            <p class="timeline-date" data-i18n="exp1_date">
+                                2023-03 – pågående
+                            </p>
+                        </header>
+                        <ul class="bullet-list">
+                            <li data-i18n="exp1_b1">
+                                Planerar och genomför undervisning i ryska och ukrainska
+                                för grundskoleelever.
+                            </li>
+                            <li data-i18n="exp1_b2">
+                                Samarbetar med klasslärare för att stödja elevernas språkutveckling.
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="exp2_role">
+                                    Ägare, skönhetsföretag
+                                </h3>
+                                <p class="timeline-place" data-i18n="exp2_place">
+                                    ElizabethBeauti Zone, Sverige
+                                </p>
+                            </div>
+                            <p class="timeline-date" data-i18n="exp2_date">
+                                2019-09 – 2021-03
+                            </p>
+                        </header>
+                        <ul class="bullet-list">
+                            <li data-i18n="exp2_b1">
+                                Ansvarade för bokningar, kundkontakt och genomförande av olika behandlingar.
+                            </li>
+                            <li data-i18n="exp2_b2">
+                                Utvecklade rutiner för service, kvalitet och kundnöjdhet.
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="exp3_role">
+                                    Nageltekniker, egenföretagare
+                                </h3>
+                                <p class="timeline-place" data-i18n="exp3_place">
+                                    Kryvyi Rih, Ukraina
+                                </p>
+                            </div>
+                            <p class="timeline-date" data-i18n="exp3_date">
+                                2015-05 – 2018-05
+                            </p>
+                        </header>
+                        <p class="timeline-text" data-i18n="exp3_text">
+                            Arbetade som nageltekniker och utbildade mig inom skönhetsvård.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="exp4_role">
+                                    Lärare i biologi
+                                </h3>
+                                <p class="timeline-place" data-i18n="exp4_place">
+                                    Skola i Chervoni Podi, Ukraina
+                                </p>
+                            </div>
+                            <p class="timeline-date" data-i18n="exp4_date">
+                                2013-08 – 2014-12
+                            </p>
+                        </header>
+                        <p class="timeline-text" data-i18n="exp4_text">
+                            Genomförde och utvecklade biologiundervisning för elever i årskurs 5–9.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="exp5_role">
+                                    Grupplärare / praktik
+                                </h3>
+                                <p class="timeline-place" data-i18n="exp5_place">
+                                    Parus & skola nr 65, Kryvyi Rih, Ukraina
+                                </p>
+                            </div>
+                            <p class="timeline-date" data-i18n="exp5_date">
+                                2010–2011
+                            </p>
+                        </header>
+                        <p class="timeline-text" data-i18n="exp5_text">
+                            Ledde grupper av elever och ansvarade för pedagogiska aktiviteter och observationer i
+                            klassrummet.
+                        </p>
+                    </article>
+                </section>
+
+                <!-- Образование -->
+                <section class="card" id="education">
+                    <h2 class="card-title" data-i18n="edu_title">Utbildning</h2>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="edu1_role">
+                                    Masterexamen i biologi, lärare i biologi och ekologi
+                                </h3>
+                                <p class="timeline-place" data-i18n="edu1_place">
+                                    Kryvyi Rih National University
+                                </p>
+                            </div>
+                            <p class="timeline-date">2013-06</p>
+                        </header>
+                    </article>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="edu2_role">
+                                    Kandidatexamen, lärare i biologi
+                                </h3>
+                                <p class="timeline-place" data-i18n="edu2_place">
+                                    Kryvyi Rih National University
+                                </p>
+                            </div>
+                            <p class="timeline-date">2012-03</p>
+                        </header>
+                    </article>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="edu3_role">
+                                    Allmän grundutbildning & gymnasium
+                                </h3>
+                                <p class="timeline-place" data-i18n="edu3_place">
+                                    Skola nr 65, Kryvyi Rih, Ukraina
+                                </p>
+                            </div>
+                            <p class="timeline-date">2008-06</p>
+                        </header>
+                    </article>
+
+                    <article class="timeline-item">
+                        <header class="timeline-head">
+                            <div>
+                                <h3 class="timeline-role" data-i18n="edu4_role">
+                                    Svenska språkkurs för akademiker
+                                </h3>
+                                <p class="timeline-place" data-i18n="edu4_place">
+                                    Stockholms intensivsvenska för akademiker – SIFA
+                                </p>
+                            </div>
+                            <p class="timeline-date">2022-08 – pågående</p>
+                        </header>
+                        <p class="timeline-text" data-i18n="edu4_text">
+                            Fördjupade studier i svenska språket, med fokus på akademiskt språk och undervisning.
+                        </p>
+                    </article>
+                </section>
+            </section>
+        </main>
+
+        <!-- Футер -->
+        <footer class="footer" id="extra">
+            <p class="footer-text" data-i18n="footer_text">
+                Detta CV är skapat som en digital version för Yelyzaveta De Lorenzi Turner.
+            </p>
+
+            <a class="studio-badge" href="https://bondarenkovita35-afk.github.io/vs-litecode-studio/" target="_blank"
+                rel="noopener">
+                <img src="images/logo.png" alt="VS LiteCode Studio" class="studio-logo" />
+                <span class="studio-text">VS LiteCode Studio</span>
+            </a>
+        </footer>
+    </div>
+
+    <script src="generate-pdf.js"></script>
+</body>
+
+</html>
