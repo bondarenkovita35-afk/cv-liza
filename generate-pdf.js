@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
             en: "Yelyzaveta De Lorenzi Turner"
         },
         role: {
-            sv: "Legitimerad NO-lärare & modersmålslärare i ryska och ukrainska",
-            en: "Qualified science teacher & mother-tongue teacher in Russian and Ukrainian"
+            sv: "Legitimerad lärare & modersmålslärare i ryska och ukrainska",
+            en: "Qualified teacher & mother-tongue teacher in Russian and Ukrainian"
         },
         location: {
             sv: "Upplands-Bro, Sverige",
@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         short_profile_title: { sv: "Kort profil", en: "Short profile" },
         short_profile: {
-            sv: "Legitimerad NO-lärare med bakgrund i biologi, ekologi och psykologi. Erfaren av undervisning i årskurs 5–9 samt arbete som modersmålslärare i ryska och ukrainska. Kreativ, strukturerad och lösningsorienterad.",
-            en: "Qualified science teacher with a background in biology, ecology and psychology. Experience of teaching grades 5–9 and working as a mother-tongue teacher in Russian and Ukrainian. Creative, structured and solution-oriented."
+            sv: "Legitimerad lärare med bakgrund i biologi, ekologi och psykologi. Erfaren av undervisning i årskurs 5–9 samt arbete som modersmålslärare i ryska och ukrainska. Kreativ, strukturerad och lösningsorienterad.",
+            en: "Qualified teacher with a background in biology, ecology and psychology. Experience of teaching grades 5–9 and working as a mother-tongue teacher in Russian and Ukrainian. Creative, structured and solution-oriented."
         },
 
         it_title: { sv: "Datorkunskaper", en: "Digital skills" },
@@ -65,8 +65,8 @@ document.addEventListener("DOMContentLoaded", () => {
             en: "As a science teacher I want to give pupils new and interesting knowledge in biology and natural sciences, while strengthening their curiosity and self-confidence. With my background in ecology and sustainable development I focus on environmental issues and how we can understand the ecological challenges we face."
         },
         summary_p2: {
-            sv: "Jag strävar efter att skapa en trygg och inkluderande lärmiljö där elever med olika kulturella och språkliga bakgrunder känner sig delaktiga. Jag vill bidra till skolans utveckling genom undervisning, kollegialt lärande och deltagande i projekt som förbättrar NO-undervisningen.",
-            en: "I strive to create a safe and inclusive learning environment where pupils with different cultural and linguistic backgrounds feel involved. I want to contribute to the school's development through teaching, collegial learning and participation in projects that improve science education."
+            sv: "Jag strävar efter att skapa en trygg och inkluderande lärmiljö där elever med olika kulturella och språkliga bakgrunder känner sig delaktiga. Jag vill bidra till skolans utveckling genom undervisning, kollegialt lärande och deltagande i projekt som förbättrar undervisningen.",
+            en: "I strive to create a safe and inclusive learning environment where pupils with different cultural and linguistic backgrounds feel involved. I want to contribute to the school's development through teaching, collegial learning and participation in projects that improve education."
         },
 
         exp_title: {
